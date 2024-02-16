@@ -1,0 +1,61 @@
+/* styles.css */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  background: #eee; 
+  color: #555;
+}
+
+.header {
+  background-image: linear-gradient(to right, #667eea, #764ba2);  
+  color: white;
+  padding: 40px;
+  text-align: center;
+  animation: slide-down 0.5s ease-out;
+}
+
+@keyframes slide-down {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 60px;
+  letter-spacing: 2px;  
+  text-shadow: 2px 2px 10px rgba(0,0,0,0.3); 
+}
+
+.content {
+  max-width: 800px; 
+  margin: 50px auto;
+  padding: 0 30px;
+  animation: content-fadein 1s ease-out; 
+}
+
+@keyframes content-fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }  
+}
+
+section {  
+  padding: 20px 0 40px;
+}
+
+section h2 {
+  margin: 0;  
+  font-size: 40px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px; 
+}  
+
+/* More styles */
