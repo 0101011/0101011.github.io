@@ -1,0 +1,155 @@
+/* General Styles */
+body {
+   font-family: 'Roboto', sans-serif;
+   font-size: 16px;
+   line-height: 1.5;
+   color: #333333;
+   background-color: #f7f7f7;
+   margin: 0;
+   padding: 0;
+}
+
+/* Header Styles */
+header {
+   background-color: #071b3c;
+   color: #ffffff;
+   padding: 20px;
+   text-align: center;
+}
+
+header h1 {
+   font-size: 36px;
+   font-weight: bold;
+   margin: 0;
+}
+
+header p {
+   font-size: 18px;
+   margin: 10px 0;
+}
+
+header a {
+   color: #ffffff;
+   text-decoration: none;
+}
+
+header a:hover {
+   text-decoration: underline;
+}
+
+/* Main Content Styles */
+main {
+   max-width: 800px;
+   margin: 0 auto;
+   padding: 20px;
+}
+
+section {
+   margin-bottom: 40px;
+}
+
+h2 {
+   font-size: 24px;
+   font-weight: bold;
+   margin-bottom: 20px;
+   color: #071b3c;
+}
+
+article {
+   background-color: #ffffff;
+   padding: 20px;
+   border-radius: 5px;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   margin-bottom: 20px;
+}
+
+h3 {
+   font-size: 20px;
+   font-weight: bold;
+   margin-bottom: 10px;
+   color: #333333;
+}
+
+article p {
+   margin-bottom: 10px;
+}
+
+article ul {
+   margin: 0;
+   padding: 0 0 0 20px;
+}
+
+article li {
+   margin-bottom: 5px;
+}
+
+/* Education Styles */
+section:last-child ul {
+   list-style-type: none;
+   padding: 0;
+}
+
+section:last-child li {
+   margin-bottom: 10px;
+}
+
+section:last-child li strong {
+   font-weight: bold;
+}
+
+/* Responsive Styles */
+@media (max-width: 767px) {
+   header {
+       padding: 15px;
+   }
+
+   header h1 {
+       font-size: 28px;
+   }
+
+   header p {
+       font-size: 16px;
+   }
+
+   main {
+       padding: 15px;
+   }
+
+   article {
+       padding: 15px;
+   }
+
+   h2 {
+       font-size: 20px;
+   }
+
+   h3 {
+       font-size: 18px;
+   }
+}
+
+@media (max-width: 480px) {
+   header h1 {
+       font-size: 24px;
+   }
+
+   header p {
+       font-size: 14px;
+   }
+
+   main {
+       padding: 10px;
+   }
+
+   article {
+       padding: 10px;
+   }
+
+   h2 {
+       font-size: 18px;
+   }
+
+   h3 {
+       font-size: 16px;
+   }
+}
